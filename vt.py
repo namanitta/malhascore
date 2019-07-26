@@ -49,7 +49,7 @@ def query_vt(md5, api):
 	
 def main():
 	dbname = 'PEmalScore.db' # The hashing database
-	api = 'ea8928e2b3a259081ff3d90ef6818d2abaee2cbfe43907f800f161a8e4b1f6f3'
+	api = 'api here'
 	dbpath = os.path.join(os.path.dirname(os.path.abspath(__file__)),'Signatures',dbname)
 	createDB(dbpath)
 		
